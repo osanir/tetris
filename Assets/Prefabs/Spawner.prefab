@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2872205347466784516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872205347466784519}
+  - component: {fileID: 2872205347466784518}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872205347466784519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872205347466784516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2872205347466784518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872205347466784516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f75b30973521d468e5767e69892560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecePrefab: {fileID: 6003361245543374595, guid: 759b1c948178aa247822ae74617fde70, type: 3}
+  spriteList:
+  - {fileID: -3883912887187999171, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  - {fileID: 6135545068306981215, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  - {fileID: -4292529289597879867, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  - {fileID: -7095595730742477043, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  - {fileID: 2674475080632415963, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  - {fileID: 3026473604458543103, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  - {fileID: 965311221631922510, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  - {fileID: 767497815267498896, guid: ae4bc1d56b7c6244ca5db991584ec6a0, type: 3}
+  nextShapeText: {fileID: 0}
